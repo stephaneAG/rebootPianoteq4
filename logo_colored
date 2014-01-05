@@ -1,0 +1,16 @@
+echo -e '
+'"$blue_color"'              __                __  '"$lightblue_color"'____  _                   __             '"$pink_color"'__ __
+'"$blue_color"'   ________  / /_  ____  ____  / /_'"$lightblue_color"'/ __ \(_)___ _____  ____  / /____  ____ _'"$pink_color"'/ // /
+'"$blue_color"'  / ___/ _ \/ __ \/ __ \/ __ \/ __'"$lightblue_color"'/ /_/ / / __ `/ __ \/ __ \/ __/ _ \/ __ `'"$pink_color"'/ // /_
+'"$blue_color"' / /  /  __/ /_/ / /_/ / /_/ / /_'"$lightblue_color"'/ ____/ / /_/ / / / / /_/ / /_/  __/ /_/ '"$pink_color"'/__  __/
+'"$blue_color"'/_/   \___/_.___/\____/\____/\__'"$lightblue_color"'/_/   /_/\__,_/_/ /_/\____/\__/\___/\__, /'"$pink_color"'  /_/   
+                                 '"$lightblue_color"'                                     /_/         
+' "$normal_color"
+
+# R: process "reversed" to make it easy as pie ;p
+# R: color helpers
+#
+# '"$pink_color"'
+# '"$lightblue_color"'
+# '"$blue_color"'
+# '"$normal_color"'
