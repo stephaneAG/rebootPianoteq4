@@ -1,6 +1,6 @@
 rebootPianoteq4
-rebootPianoteq4 - Mac OS X .App / bash script to handle tedious tasks ..
 ===============
+Mac OS X .App / bash script to handle tedious tasks ..
 
 
 ### Goal
