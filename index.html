@@ -31,11 +31,11 @@
         <h3>
 <a name="welcome-to-the-rebootpianoteq4-github-project-page" class="anchor" href="#welcome-to-the-rebootpianoteq4-github-project-page"><span class="octicon octicon-link"></span></a>Welcome to the rebootPianoteq4 GitHub Project Page.</h3>
 
-<p>This project aims to provide a simple &amp; automated way to handle tedious tasks necessary to using the Pianoteq4 trial ...</p>
+<p>This project aims to provide a simple &amp; automated way to handle tedious tasks necessary to effisciently use the Pianoteq4 trial ...</p>
 
-<p>aka "close -&gt; relaunch -&gt; close trial dialog -&gt; engage sustain pedal", &amp; loop over every 19 minutes</p>
+<p>aka "close -&gt; relaunch -&gt; close trial dialog -&gt; engage sustain pedal", &amp; loop over these steps again every 19 minutes ( the "time lock" being of 20 minutes )</p>
 
-<p>It 's intended to be run from the command line, else one can prefer to use the .App, docked or not, for easy access.</p>
+<p>It 's intended to be run from the command line or by using the .App, docked or not, for easy &amp; handy access to the end user.</p>
 
 <h3>
 <a name="notes" class="anchor" href="#notes"><span class="octicon octicon-link"></span></a>Notes</h3>
@@ -44,20 +44,18 @@
 
 <p>-&gt; launched like any other app, and closed like any other app OR by clicking on the "rotating cogwheel" in the Mac OS X OS top bar --&gt; to do so, we'd use the .app</p>
 
-<p>-&gt; launched from the cli, and stopped/close when hitting "Ctrl-C" --&gt; to do so, we'd use the  "/stag_rebootPianoteq4.sh" command to launch the bash program handling necessary stuff (...)</p>
+<p>-&gt; launched from the cli, and stopped/close when hitting "Ctrl-C" --&gt; to do so, we'd use the  "./stag_rebootPianoteq4.sh" command to launch the bash program handling necessary stuff (...)</p>
 
-<p>Note that either way, once it's running, the "watching process", while in use, displays a rotating cogwheel in Mac OS X top ( status ?) bar. If the user wants to stop it, he can either right click the icon in the dock or click the cogwheel icon in the top OS bar BUT! -&gt; line right below ;) If the "watching process" was launched using the current bash script and thus from the command line, it is appropriate to just "Ctrl-C" the script &amp; let it handle that by itself.</p>
+<p>Note that either way, once it's running, the "watching process", while in use, displays a rotating cogwheel in Mac OS X top bar. If the user wants to stop it, he can either right click the icon in the dock or click the cogwheel icon in the top OS bar &amp; selecting "stop process" BUT! -&gt; line right below ;) If the "watching process" was launched using the current bash script and thus from the cli, it is appropriate to just "Ctrl-C" the script &amp; let it handle the necessary "cleanup" by itself.</p>
 
-<p>-&gt; If for any reason, it couldn't stop the "watching process" as well as closing itself when hitting "Ctrl-C", the "watching process" can still be stopped by either right clicking the icon in the dock or clicking the rotating cogwheel icon in the top OS bar, as it's done while using the .App to launch rebootPianoteq4.</p>
+<p>-&gt; If for any reason, the bash script weren't able to stop the "watching process" as well as closing itself after the user hit "Ctrl-C", then the "watching process" 'll still be stoppable by either right clicking the icon in the dock or clicking the rotating cogwheel icon in the top OS bar &amp; selecting "stop process", as we do while using the .app ( rebootPianoteq4.app ).</p>
 
 <h3>
 <a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h3>
 
 <pre><code># this is the way we use the program from the cli
-$ .//stag_rebootPianoteq4.sh
-
+$ ./stag_rebootPianoteq4.sh
 (..)
-
 # to stop the background "watching process" &amp; quit rebootPianoteq4, simply hit "Ctrl-C"
 $ &lt;Ctrl-C&gt;
 </code></pre>
