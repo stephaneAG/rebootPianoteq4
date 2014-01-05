@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Rebootpianoteq4 by stephaneAG</title>
+    <title>rebootPianoteq4 by stephaneAG</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
@@ -15,8 +15,8 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>Rebootpianoteq4</h1>
-        <p>rebootPianoteq4 - Mac OS X .App / bash script to handle tedious tasks ..</p>
+        <h1>rebootPianoteq4</h1>
+        <p>rebootPianoteq4 - A Mac OS X .App / bash script to handle tedious tasks ..</p>
 
         <p class="view"><a href="https://github.com/stephaneAG/rebootPianoteq4">View the Project on GitHub <small>stephaneAG/rebootPianoteq4</small></a></p>
 
@@ -29,36 +29,48 @@
       </header>
       <section>
         <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+<a name="welcome-to-the-rebootpianoteq4-github-project-page" class="anchor" href="#welcome-to-the-rebootpianoteq4-github-project-page"><span class="octicon octicon-link"></span></a>Welcome to the rebootPianoteq4 GitHub Project Page.</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<p>This project aims to provide a simple &amp; automated way to handle tedious tasks necessary to using the Pianoteq4 trial ...</p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
+<p>aka "close -&gt; relaunch -&gt; close trial dialog -&gt; engage sustain pedal", &amp; loop over every 19 minutes</p>
+
+<p>It 's intended to be run from the command line, else one can prefer to use the .App, docked or not, for easy access.</p>
+
+<h3>
+<a name="notes" class="anchor" href="#notes"><span class="octicon octicon-link"></span></a>Notes</h3>
+
+<p>The project can be used in two different ways:</p>
+
+<p>-&gt; launched like any other app, and closed like any other app OR by clicking on the "rotating cogwheel" in the Mac OS X OS top bar --&gt; to do so, we'd use the .app</p>
+
+<p>-&gt; launched from the cli, and stopped/close when hitting "Ctrl-C" --&gt; to do so, we'd use the  "/stag_rebootPianoteq4.sh" command to launch the bash program handling necessary stuff (...)</p>
+
+<p>Note that either way, once it's running, the "watching process", while in use, displays a rotating cogwheel in Mac OS X top ( status ?) bar. If the user wants to stop it, he can either right click the icon in the dock or click the cogwheel icon in the top OS bar BUT! -&gt; line right below ;) If the "watching process" was launched using the current bash script and thus from the command line, it is appropriate to just "Ctrl-C" the script &amp; let it handle that by itself.</p>
+
+<p>-&gt; If for any reason, it couldn't stop the "watching process" as well as closing itself when hitting "Ctrl-C", the "watching process" can still be stopped by either right clicking the icon in the dock or clicking the rotating cogwheel icon in the top OS bar, as it's done while using the .App to launch rebootPianoteq4.</p>
+
+<h3>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h3>
+
+<pre><code># this is the way we use the program from the cli
+$ .//stag_rebootPianoteq4.sh
+
+(..)
+
+# to stop the background "watching process" &amp; quit rebootPianoteq4, simply hit "Ctrl-C"
+$ &lt;Ctrl-C&gt;
 </code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
 
 <h3>
 <a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<p>StephaneAG ( <a href="https://github.com/StephaneAG" class="user-mention">@StephaneAG</a> )</p>
 
 <h3>
 <a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+<p>Feel free to contact me for any help, suggestion, or related stuff.</p>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/stephaneAG">stephaneAG</a></p>
