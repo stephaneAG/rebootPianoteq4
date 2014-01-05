@@ -3,9 +3,11 @@ rebootPianoteq4
 Mac OS X .App / bash script to handle tedious tasks ..
 
 
+===============
 ### Goal
 Simple script that aims to contain the process produced by Automator ( wich is executed while still residing in its initial "dedicated .App" )
 
+===============
 ### Usage
 
 It 's intended to be run from the command line, else one can prefer to use the .App, docked or not, for easy access.
