@@ -1,15 +1,11 @@
 rebootPianoteq4
 ===============
-
 rebootPianoteq4 - Mac OS X .App / bash script to handle tedious tasks ..
 
-===============
-## Goal
-
+### Goal
 Simple script that aims to contain the process produced by Automator ( wich is executed while still residing in its initial "dedicated .App" )
 
-===============
-## Usage
+### Usage
 
 It 's intended to be run from the command line, else one can prefer to use the .App, docked or not, for easy access.
 
@@ -22,8 +18,7 @@ If the "watching process" was launched using the current bash script and thus fr
    as it's done while using the .App to launch rebootPianoteq4.
 
 
-===============
-## About Pianoteq
+### About Pianoteq
 
 Pianoteq is a great piece of software: its a standalone app / VST that can provide different piano configurations using effiscient algorithms instead of sample.
 Thing is, there is no "fully free version" for specific usage & I can't afford it right now, so I guessed I was still gonna learn code & piano with "missing keys" ( R: it WORKS -> we perceive with our ears, we hear with our mind ;p )
